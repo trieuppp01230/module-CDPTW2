@@ -1,0 +1,98 @@
+.module-7 {
+    background-color: #f3f3f3;
+    .col-inner {
+        margin: 100px 0;
+        .title {
+            text-transform: uppercase;
+            margin-top: 0;
+            font-size: 27px;
+            line-height: 30px;
+            margin-bottom: 18px;
+            font-style: normal;
+        }
+        .content {
+            font-weight: normal;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 23px;
+            color: #727272;
+            margin-bottom: 50px;
+        }
+        .form {
+            .form-inner {
+                background-color: #fff;
+                box-shadow: 0 0 0 0 #ffffff;
+                margin: 0px 0px 0px 0px;
+                padding: 40px 40px 40px 40px;
+                .sppb-form-control {
+                    width: 100%;
+                    border: 1px solid #eee;
+                    background: #f9f9f9;
+                    box-shadow: inset 0px 1px 2px 0px rgba(238,238,238,1);                
+                    height: 45px;
+                    margin: 10px 0;
+                    padding: 8px;
+                    &::placeholder {
+                        color: #495057;
+                        font-size: 16px;
+                        line-height: 1.25;
+                    }
+                }
+                textarea {
+                    min-height: 100px;
+                }
+                .submit {
+                    background-color: #fccb06;
+                    display: inline-block;
+                    padding: 10px 36px;
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-align: center;
+                    border: none;
+                    text-transform: uppercase;
+                    color: #fff;
+                    border-radius: 7px;
+                    margin: 10px 0 15px 0;
+                }
+            }   
+        }
+        .sppb-addon-title {
+            margin-top: 0;
+            font-size: 22px;
+            line-height: 25px;
+            margin-bottom: 0;
+            font-style: normal;
+            span {
+                font-size: 16px;
+                line-height: 21px;
+                margin-bottom: 14px;
+                font-style: normal;
+                display: block;
+                margin-top: 18px;
+            }
+        }
+        .sppb-addon-content {
+            font-weight: normal;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 23px;
+            color: #727272;
+            .address {
+                margin: 25px 0 40px 0;
+            }
+            .web {
+                margin-bottom: 50px;
+            }
+        }
+    }
+    input:focus {
+        outline: none;
+    }
+    textarea:focus {
+        outline: none;
+    }
+    button:focus {
+        outline: none;
+    }
+}

@@ -1,0 +1,114 @@
+.module-14 {
+  .side-bar {
+    margin-top: 50px;
+    .box-side-bar {
+      color: #727272;
+      margin-bottom: 50px;
+      input:focus {
+        outline: none;
+      }
+      .input {
+        padding: 5px 15px;
+        width: 100%;
+        border: 1px solid #e4e4e4;
+      }
+      .email {
+        width: 70% !important;
+      }
+      .submit {
+        border: none;
+        padding: 6px 21px;
+        background: #fccb06;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      button:focus {
+        outline: none;
+      }
+      .title {
+        font-size: 25px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height: 23px;
+      }
+      .list-category {
+        padding: 0;
+        li {
+          list-style: none;
+          border-bottom: 1px solid #ececec;
+          font-size: 17px;
+          line-height: 23px;
+          padding: 10px 0;
+          transition: 0.3s;
+          &:hover {
+            color: #fccb06;
+          }
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+      .box-post {
+        border-bottom: 1px solid #ececec;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        &:last-child {
+          border-bottom: none;
+        }
+        .img {
+          width: 100px;
+          float: left;
+          img {
+            max-width: 100%;
+          }
+        }
+        .desc {
+          overflow: hidden;
+          padding-left: 25px;
+          span {
+            display: block;
+            text-transform: uppercase;
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 400;
+            color: #727272;
+            transition: all 0.3s ease;
+          }
+          small {
+            display: block;
+            padding-top: 10px;
+            font-size: 15px;
+            color: #b9b9b9;
+            font-weight: normal;
+            font-style: normal;
+            line-height: 23px;
+          }
+        }
+      }
+      .list-content {
+        padding: 0;
+        li {
+          list-style: none;
+          float: left;
+          padding: 5px 10px;
+          border: 1px solid;
+          margin-right: 16px;
+          margin-bottom: 16px;
+        }
+      }
+      .list-img {
+        padding: 0;
+        li {
+          list-style: none;
+          float: left;
+          margin: 0 10px 10px 0;
+          img {
+            width: 106px;
+            height: 106px;
+          }
+        }
+      }
+    }
+  }
+}

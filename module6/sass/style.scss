@@ -1,0 +1,95 @@
+$dark: #000;
+$white: #fff;
+$background: #fccb06;
+
+@mixin font($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+.module-6 {
+  .footer {
+    background-color: $dark;
+    font-size: 14px;
+    .logo {
+      width: 115px;
+    }
+    .col-inner {
+      margin: 90px 0;
+      .desc {
+        font-size: 16px;
+        color: #acacac;
+        margin: 30px 0;
+        padding-right: 12px;
+      }
+      .title {
+        @include font(24px, 500, 25px);
+        color: #fff;
+        margin-bottom: 40px;
+        font-style: normal;
+      }
+      .text-block {
+        font-size: 16px;
+        color: #acacac;
+        strong {
+          color: $white;
+        }
+        .social-list-icon {
+          margin-top: 15px;
+          .social-icon {
+            padding: 0;
+            .icon {
+              float: left;
+              list-style: none;
+              width: 36px;
+              height: 36px;
+              text-align: center;
+              line-height: 40px;
+              padding: 0px;
+              color: #fff;
+              cursor: pointer;
+              &:hover {
+                color: $background;
+              }
+            }
+          }
+        }
+      }
+      .content {
+        .list-content {
+          padding: 0;
+          .list {
+            font-size: 16px;
+            color: #bababa;
+            list-style: none;
+            padding: 6px 0;
+            cursor: pointer;
+            background-color: transparent;
+            &::before {
+              padding: 0 10px 0 0;
+              display: inline-block;
+              font: normal normal normal 14px/1 FontAwesome;
+              font-size: inherit;
+              content: "\f105";
+            }
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bt-footer {
+    background: #161616;
+    .sp-copyright {
+      font-size: 14px;
+      color: #727272;
+      margin: 0;
+      padding: 30px 0;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.module-16 {
+  background-image: url('../images/186.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: 50% 50%;
+  background-attachment: scroll; }
+  .module-16 .text-box {
+    position: relative;
+    padding: 80px;
+    background-color: #fff;
+    margin-top: 160px; }
+    .module-16 .text-box .quote-icon {
+      position: absolute;
+      left: 42%;
+      top: -35px;
+      text-align: center;
+      z-index: 2; }
+      .module-16 .text-box .quote-icon i {
+        color: #fccb06;
+        font-size: 70px; }
+    .module-16 .text-box h5 {
+      padding-top: 10px; }
+  .module-16 p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272; }

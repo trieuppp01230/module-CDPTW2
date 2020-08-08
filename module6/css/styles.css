@@ -1,0 +1,65 @@
+.module-6 .footer {
+  background-color: #000;
+  font-size: 14px; }
+  .module-6 .footer .logo {
+    width: 115px; }
+  .module-6 .footer .col-inner {
+    margin: 90px 0; }
+    .module-6 .footer .col-inner .desc {
+      font-size: 16px;
+      color: #acacac;
+      margin: 30px 0;
+      padding-right: 12px; }
+    .module-6 .footer .col-inner .title {
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 25px;
+      color: #fff;
+      margin-bottom: 40px;
+      font-style: normal; }
+    .module-6 .footer .col-inner .text-block {
+      font-size: 16px;
+      color: #acacac; }
+      .module-6 .footer .col-inner .text-block strong {
+        color: #fff; }
+      .module-6 .footer .col-inner .text-block .social-list-icon {
+        margin-top: 15px; }
+        .module-6 .footer .col-inner .text-block .social-list-icon .social-icon {
+          padding: 0; }
+          .module-6 .footer .col-inner .text-block .social-list-icon .social-icon .icon {
+            float: left;
+            list-style: none;
+            width: 36px;
+            height: 36px;
+            text-align: center;
+            line-height: 40px;
+            padding: 0px;
+            color: #fff;
+            cursor: pointer; }
+            .module-6 .footer .col-inner .text-block .social-list-icon .social-icon .icon:hover {
+              color: #fccb06; }
+    .module-6 .footer .col-inner .content .list-content {
+      padding: 0; }
+      .module-6 .footer .col-inner .content .list-content .list {
+        font-size: 16px;
+        color: #bababa;
+        list-style: none;
+        padding: 6px 0;
+        cursor: pointer;
+        background-color: transparent; }
+        .module-6 .footer .col-inner .content .list-content .list::before {
+          padding: 0 10px 0 0;
+          display: inline-block;
+          font: normal normal normal 14px/1 FontAwesome;
+          font-size: inherit;
+          content: "\f105"; }
+        .module-6 .footer .col-inner .content .list-content .list:hover {
+          color: #fff; }
+.module-6 .bt-footer {
+  background: #161616; }
+  .module-6 .bt-footer .sp-copyright {
+    font-size: 14px;
+    color: #727272;
+    margin: 0;
+    padding: 30px 0;
+    text-align: center; }

@@ -1,0 +1,168 @@
+$dark : #000;
+$white : #fff;
+$background: #fccb06;
+
+@mixin font($font-size, $font-weight, $line-height) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    line-height: $line-height;
+}
+
+.module-1 {
+    margin: 30px 0 100px 0;
+    .box-information {
+        display: flex;
+        justify-content: center;
+        .information {
+            width: 50%;
+            text-align: center;
+            span {
+                margin-bottom: 3px;
+                line-height: 40px;
+                color: #888;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            .title {
+                margin-bottom: 3px;
+                font-weight: 600;
+                line-height: 50px;
+                font-size: 35px;
+            }
+            .yellow {
+                width: 20%;
+                height: 2px;
+                background-color: #fccb06;
+                margin: 15px auto 0 auto;
+            }
+        }
+    }
+    
+    .nav_menu {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        margin-bottom: 24px;
+        &_list {
+            padding: 0;
+            &_item {
+                float: left;
+                display: block;
+                list-style: none;
+                margin: 10px;
+                .active {
+                    background-color: #fccb06;
+                    cursor: default;
+                }
+                &_link {
+                    border: 1px solid #ECECEC;
+                    color: #888888;
+                    cursor: pointer;
+                    display: inline-block;
+                    overflow: visible;
+                    position: relative;
+                    transition: all 0.3s ease-in-out 0s;
+                    border-radius: 0;
+                    padding: 8px 24px;
+                   &:hover {
+                        color: #888888;
+                   }
+                }
+            }
+        }
+    }
+    
+    .category {
+        &_list {
+            &_item {
+                padding: 0;
+                position: relative;
+                &::before {
+                    position: absolute;
+                    content:'';
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #888888a1;
+                    transition: 0.5s;
+                    opacity: 0;
+                }
+                .title {
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-weight: 600;
+                    display: inline-block;
+                    color: #fff;
+                    font-size: 16px;
+                    top: 60%;
+                    position: absolute;
+                    left: 31px;
+                    transition: 0.5s;
+                    opacity: 0;
+                    .border {
+                        width: 42%;
+                        border: 1px solid #dee2e6!important;
+                        display: block;
+                        transform: translateX(66px);
+                        margin-top: 6px;
+                    }
+                }
+                &:hover {
+                    &::before  {
+                        opacity: 1;
+                    }
+                    .title {
+                        transform: translateY(-30px);
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .box-porfolio {
+        padding: 0;
+        position: relative;
+        &::before {
+            position: absolute;
+            content:'';
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #888888a1;
+            transition: 0.5s;
+            opacity: 0;
+        }
+        .title {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            display: inline-block;
+            color: #fff;
+            font-size: 16px;
+            top: 60%;
+            position: absolute;
+            left: 31px;
+            transition: 0.5s;
+            opacity: 0;
+            .border {
+                width: 42%;
+                border: 1px solid #dee2e6!important;
+                display: block;
+                transform: translateX(66px);
+                margin-top: 6px;
+            }
+        }
+        &:hover {
+            &::before  {
+                opacity: 1;
+            }
+            .title {
+                transform: translateY(-30px);
+                opacity: 1;
+            }
+        }
+    }
+    img {
+        max-width: 100%;
+    }
+}

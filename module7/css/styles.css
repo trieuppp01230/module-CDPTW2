@@ -1,0 +1,79 @@
+.module-7 {
+  background-color: #f3f3f3; }
+  .module-7 .col-inner {
+    margin: 100px 0; }
+    .module-7 .col-inner .title {
+      text-transform: uppercase;
+      margin-top: 0;
+      font-size: 27px;
+      line-height: 30px;
+      margin-bottom: 18px;
+      font-style: normal; }
+    .module-7 .col-inner .content {
+      font-weight: normal;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 23px;
+      color: #727272;
+      margin-bottom: 50px; }
+      .module-7 .col-inner .form .form-inner {
+        background-color: #fff;
+        box-shadow: 0 0 0 0 #ffffff;
+        margin: 0px 0px 0px 0px;
+        padding: 40px 40px 40px 40px; }
+        .module-7 .col-inner .form .form-inner .sppb-form-control {
+          width: 100%;
+          border: 1px solid #eee;
+          background: #f9f9f9;
+          box-shadow: inset 0px 1px 2px 0px #eee;
+          height: 45px;
+          margin: 10px 0;
+          padding: 8px; }
+          .module-7 .col-inner .form .form-inner .sppb-form-control::placeholder {
+            color: #495057;
+            font-size: 16px;
+            line-height: 1.25; }
+        .module-7 .col-inner .form .form-inner textarea {
+          min-height: 100px; }
+        .module-7 .col-inner .form .form-inner .submit {
+          background-color: #fccb06;
+          display: inline-block;
+          padding: 10px 36px;
+          margin-bottom: 0;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          border: none;
+          text-transform: uppercase;
+          color: #fff;
+          border-radius: 7px;
+          margin: 10px 0 15px 0; }
+    .module-7 .col-inner .sppb-addon-title {
+      margin-top: 0;
+      font-size: 22px;
+      line-height: 25px;
+      margin-bottom: 0;
+      font-style: normal; }
+      .module-7 .col-inner .sppb-addon-title span {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 14px;
+        font-style: normal;
+        display: block;
+        margin-top: 18px; }
+    .module-7 .col-inner .sppb-addon-content {
+      font-weight: normal;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 23px;
+      color: #727272; }
+      .module-7 .col-inner .sppb-addon-content .address {
+        margin: 25px 0 40px 0; }
+      .module-7 .col-inner .sppb-addon-content .web {
+        margin-bottom: 50px; }
+  .module-7 input:focus {
+    outline: none; }
+  .module-7 textarea:focus {
+    outline: none; }
+  .module-7 button:focus {
+    outline: none; }

@@ -1,0 +1,106 @@
+.module-19 {
+  background-image: url("../images/17.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 90px; }
+  .module-19 .padding {
+    padding: 0px 0 350px 0; }
+  .module-19 .box-title {
+    text-align: left;
+    color: #fff;
+    padding-top: 120px;
+    padding-right: 10px;
+    padding-left: 50px; }
+    .module-19 .box-title .main-title {
+      transform: translateY(100px);
+      transition: 1s;
+      opacity: 1; }
+    .module-19 .box-title h1 {
+      text-transform: uppercase;
+      font-style: normal;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 70px;
+      transform: translateY(0);
+      transition: 1s;
+      opacity: 0; }
+    .module-19 .box-title span {
+      display: block;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 50px;
+      margin: 20px 0 45px 0;
+      transform: translateY(100px); }
+    .module-19 .box-title button {
+      padding: 14px 39px;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      line-height: 14px;
+      letter-spacing: 0px;
+      border: 2px solid #fff;
+      background-color: transparent;
+      transition: all ease 0.3s;
+      transform: translateY(300px);
+      opacity: 0; }
+      .module-19 .box-title button:focus {
+        outline: none; }
+    .module-19 .box-title .get-start {
+      transform: translateY(100px);
+      opacity: 1;
+      transition: 2s; }
+      .module-19 .box-title .get-start:hover {
+        color: #000;
+        background-color: #fff;
+        transition: 0.3s; }
+  .module-19 .box-img {
+    position: relative;
+    margin-top: 145px; }
+    .module-19 .box-img .trans-iphone {
+      transform: translateX(120px);
+      transition: 1s;
+      opacity: 1 !important; }
+    .module-19 .box-img .box-iphone {
+      position: absolute;
+      display: inline-block;
+      float: left;
+      left: 0;
+      top: 128px;
+      z-index: 1;
+      opacity: 0; }
+      .module-19 .box-img .box-iphone .img-iphone {
+        width: 165px;
+        height: 288px;
+        position: absolute;
+        top: 42px;
+        left: 34px; }
+      .module-19 .box-img .box-iphone .iphone {
+        width: 230px;
+        height: 400px; }
+    .module-19 .box-img .trans-ipad {
+      transform: translateX(0) !important;
+      opacity: 1 !important;
+      transition: 1s; }
+    .module-19 .box-img .box-ipad {
+      position: absolute;
+      float: right;
+      right: 0;
+      transform: translateX(300px);
+      opacity: 0; }
+      .module-19 .box-img .box-ipad .img-ipad {
+        width: 260px;
+        height: 377px;
+        position: absolute;
+        top: 62px;
+        left: 44px; }
+      .module-19 .box-img .box-ipad .ipad {
+        width: 350px;
+        height: 520px; }
+  .module-19 .clearfix::after {
+    content: "";
+    clear: both;
+    display: table; }

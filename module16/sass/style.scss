@@ -1,0 +1,45 @@
+$dark: #000;
+$white: #fff;
+$background: #fccb06;
+
+@mixin font($font-size, $font-weight, $line-height) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+}
+
+.module-16 {
+  background-image: url('../images/186.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: 50% 50%;
+  background-attachment: scroll;
+  .text-box {
+    position: relative;
+    padding: 80px;
+    background-color: #fff;
+    margin-top: 160px;
+    .quote-icon {
+      position: absolute;
+      left: 42%;
+      top: -35px;
+      text-align: center;
+      z-index: 2;
+      i {
+        color: #fccb06;
+        font-size: 70px;
+      }
+    }
+    h5 {
+      padding-top: 10px;
+    }
+  }
+  p{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #727272;
+  }
+}

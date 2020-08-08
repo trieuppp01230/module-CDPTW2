@@ -1,0 +1,51 @@
+.module-13 .about-company img {
+  max-width: 100%; }
+.module-13 .information {
+  float: right;
+  margin-top: 40px; }
+  .module-13 .information .sub-title {
+    margin-bottom: 3px;
+    color: #888;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px; }
+  .module-13 .information .main-title {
+    margin-bottom: 3px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px; }
+  .module-13 .information .title-aline {
+    width: 12%;
+    height: 2px;
+    background-color: #fccb06;
+    margin: 15px 0px; }
+  .module-13 .information .desc {
+    margin: 35px 0px; }
+  .module-13 .information .tex {
+    padding: 5px 0; }
+    .module-13 .information .tex .icon-text {
+      margin-right: 15px;
+      color: #000; }
+  .module-13 .information .btn-readmore {
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+    margin-top: 40px;
+    text-transform: uppercase; }
+    .module-13 .information .btn-readmore i {
+      margin-right: 10px; }
+    .module-13 .information .btn-readmore:hover {
+      background-color: #3e3e3e;
+      color: #fff; }
+.module-13 .btn {
+  display: inline-block;
+  padding: 10px 36px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center; }
